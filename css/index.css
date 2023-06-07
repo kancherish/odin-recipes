@@ -1,0 +1,24 @@
+ body{
+  background-color: rgba(226, 226, 142, 0.747);
+ }
+ #sub-content1{
+    display: flex;
+ }
+ #main-image{
+    height: 200px;
+    width: 400px;
+}
+#sub-para{
+  background-color: rgba(230, 133, 133, 0.342);
+  font-family: 'Raleway', sans-serif;
+}
+#main-title{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:rgba(245, 162, 129, 0.918);
+}
+#recipe-list{
+  background-color: rgba(0, 255, 255, 0.363);
+  font-family: 'Raleway', sans-serif;
+}
+

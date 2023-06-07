@@ -1,0 +1,12 @@
+body{
+    background-color: rgba(226, 226, 142, 0.747);
+}
+#main-title{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:rgba(245, 162, 129, 0.918);
+}
+#main-image{
+    height: 200px;
+    width: 400px;
+}
