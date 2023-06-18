@@ -1,16 +1,31 @@
+ *{
+  box-sizing: border-box;
+ }
  body{
   background-color: rgba(226, 226, 142, 0.747);
  }
  #sub-content1{
-    display: flex;
+    padding: auto;
+    background-color: rgba(230, 133, 133, 0.342);
+    width:100%;
+    border-radius: 15%;
+    vertical-align: auto;
  }
- #main-image{
-    height: 200px;
-    width: 400px;
+ .image{
+  display: inline-block;
+  padding: 20px;
+  /* padding-top: 25px; */
+}
+#main-image{
+    height: 150px;
+    width: 300px;
+    border-radius: 10%;
 }
 #sub-para{
-  background-color: rgba(230, 133, 133, 0.342);
+  display: inline-block;
+  padding: 30px;
   font-family: 'Raleway', sans-serif;
+  width: 66%;
 }
 #main-title{
     text-align: center;
@@ -20,5 +35,35 @@
 #recipe-list{
   background-color: rgba(0, 255, 255, 0.363);
   font-family: 'Raleway', sans-serif;
+  border-radius: 8px;
+}
+.sub-content2-title{
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding: 15px;
+  font-size: 25px;
+}
+.recipe img{
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+}
+.recipe{
+  font-size: 60px;
+  margin-bottom: 20px;
+  padding:15px 40px ;
+  border: 2px solid rgba(84, 84, 238, 0.726);
+  background-color: aliceblue;
+  border-radius: 22px;
 }
 
+ 
+#recipe1 a{
+  margin-right: 377px;
+}
+#recipe2 a{
+  margin-left: 200px;
+}
+#recipe3 a{
+  margin-right: 250px;
+}
